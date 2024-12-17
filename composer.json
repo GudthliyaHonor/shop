@@ -1,14 +1,14 @@
 {
-    "name": "shop/back",
+    "name": "yidianzhishi/learning",
     "type": "framework",
-    "description": "商城后台",
+    "description": "一点知识学习平台",
     "version": "1.0.0",
-    "homepage": "",
+    "homepage": "http://www.yidianzhishi.cn",
     "license": "",
     "authors": [
         {
-            "name": "Wish",
-            "email": ""
+            "name": "Li Guanghui",
+            "email": "liguanghui2006@163.com"
         }
     ],
     "require": {
@@ -80,10 +80,16 @@
             "Key\\": "system/framework/Key",
             "App\\Common\\": "system/common",
             "App\\Transfers\\": "system/transfers",
+            "imm\\": "system/aliyun-php-sdk-imm/imm",
+            "Dm\\": "system/aliyun-php-sdk-dm/Dm",
+            "Sms\\": "system/aliyun-php-sdk-sms/Sms",
+            "NlsFileTrans\\": "system/aliyun-php-sdk-nls-filetrans",
+            "NlsCloud\\": "system/aliyun-php-sdk-nls-cloud-meta",
             "setasign\\Fpdi\\": "system/setasign/fpdi/src"
         },
         "files": [
-            "system/framework/Key/helpers.php"
+            "system/framework/Key/helpers.php",
+            "system/aliyun-php-sdk-core/Config.php"
         ]
     },
 
